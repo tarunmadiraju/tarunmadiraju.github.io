@@ -1,0 +1,79 @@
+<!-- login form -->
+{<div class="app-container" style="display: block;">
+	<div class="page__content" style="height: 100%;">
+		<div class="card card--no-padding">
+			<div class="card__content">
+				<div class="org-logo">
+					<img class="org-logo__image" src="https://www.universalmusic.com/wp-content/uploads/2015/09/universal-music-group-logo.png" alt="Company Logo" />
+				</div>
+				<div data-skcomponent="skerror" class="feedback feedback--error sk-alert sk-alert-danger has-text-danger has-background-danger-light" data-id="feedback" data-skvisibility=""></div>
+				<form class="form" id='usernamePasswordForm' data-id="usernamePasswordForm">
+					<div class="field float-label">
+						<input class="text-input float-label__input" data-id="username-input" id="username" name="username" type="text" autocomplete="on" value="" />
+						<label class="float-label__label" for="username">Username</label>
+					</div>
+					<div class="field float-label">
+						<input class="text-input text-input--pasword float-label__input" data-id="password-input" id="password" name="password" type="password" autocomplete="on" value="" />
+						<label class="float-label__label" for="password">Password</label>
+					</div>
+					<div class="control">
+						<button class="field is-primary mt-2 button file-input--button button--primary brand-primary-bg" data-id="button" type="submit" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="submit">
+                            Sign On
+							<i class="fas fa-forward ml-2"></i>
+						</button>
+					</div>
+					<div class="control">
+                        <div style="width: 100%; text-align: center;">
+                            <button type="submit" class="buttonLink is-primary is-inverted mt-2" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="forgotPassword">
+                                Forgot Password
+                                <i class="fas fa-forward ml-2"></i>
+                            </button>
+				
+				<br><button type="submit" class="btn btn-link" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="registerUser">
+					No account?  Register now!
+				</button>
+                        </div>
+					</div>
+				</form>
+				[[[skcomponent###c2tjb21wb25lbnQgInNrSURQIiAgaWRwQ29ubmVjdG9yPSIxZDMzYmE0ZTdiMDg1M2Q4MDcyOGY5MzRmYmViYmI3MiIgbGFiZWw9IkxvZ2luIHdpdGggR29vZ2xlIiBpZD0iR29vZ2xlIiBjbGFzcz0iYnV0dG9uIGlzLWZ1bGx3aWR0aCBtdC0zIiBidXR0b25JbWFnZT0iaHR0cHM6Ly9jZG4uZ2xpdGNoLm1lLzdlNjk4ZDlkLTg3ZjYtNDU1Mi05YzExLThkNjdkZmE1ZjFkYS9nb29nbGUuc3ZnP3Y9MTYzOTYxNDYyOTcxNCIgYnV0dG9uSW1hZ2VDbGFzcz0ibXItMiIgYnV0dG9uSW1hZ2VQbGFjZW1lbnQ9ImxlZnQi###eyJuYW1lIjoic2tJRFAiLCJvcHRpb25zIjp7ImlkcENvbm5lY3RvciI6IjFkMzNiYTRlN2IwODUzZDgwNzI4ZjkzNGZiZWJiYjcyIiwibGFiZWwiOiJMb2dpbiB3aXRoIEdvb2dsZSIsImlkIjoiR29vZ2xlIiwiY2xhc3MiOiJidXR0b24gaXMtZnVsbHdpZHRoIG10LTMiLCJidXR0b25JbWFnZSI6Imh0dHBzOi8vY2RuLmdsaXRjaC5tZS83ZTY5OGQ5ZC04N2Y2LTQ1NTItOWMxMS04ZDY3ZGZhNWYxZGEvZ29vZ2xlLnN2Zz92PTE2Mzk2MTQ2Mjk3MTQiLCJidXR0b25JbWFnZUNsYXNzIjoibXItMiIsImJ1dHRvbkltYWdlUGxhY2VtZW50IjoibGVmdCJ9LCJjb21wb25lbnRQcm9wcyI6eyJpZHBDb25uZWN0b3IiOnsibmFtZSI6ImlkcENvbm5lY3RvciIsImRpc3BsYXlOYW1lIjoiSURQIENvbm5lY3RvciIsInR5cGUiOiJpZHBEcm9wZG93biJ9LCJsYWJlbCI6eyJuYW1lIjoibGFiZWwiLCJkaXNwbGF5TmFtZSI6IkJ1dHRvbiBMYWJlbCJ9LCJpZCI6eyJuYW1lIjoiaWQiLCJkaXNwbGF5TmFtZSI6IkJ1dHRvbiBJRCJ9LCJjbGFzcyI6eyJuYW1lIjoiY2xhc3MiLCJkaXNwbGF5TmFtZSI6IkNsYXNzIn0sImJ1dHRvbkltYWdlIjp7Im5hbWUiOiJidXR0b25JbWFnZSIsImRpc3BsYXlOYW1lIjoiQnV0dG9uIEltYWdlIChVUkwgZm9yIGFuIGltYWdlKSIsImdyb3VwIjoiSW1hZ2UifSwiYnV0dG9uSW1hZ2VDbGFzcyI6eyJuYW1lIjoiYnV0dG9uSW1hZ2VDbGFzcyIsImRpc3BsYXlOYW1lIjoiQnV0dG9uIEltYWdlIENsYXNzIiwiZ3JvdXAiOiJJbWFnZSJ9LCJidXR0b25JbWFnZVBsYWNlbWVudCI6eyJuYW1lIjoiYnV0dG9uSW1hZ2VQbGFjZW1lbnQiLCJkaXNwbGF5TmFtZSI6IkJ1dHRvbiBJbWFnZSBQbGFjZW1lbnQiLCJ0eXBlIjoic2VsZWN0Iiwib3B0aW9ucyI6W3sibmFtZSI6IkxlZnQiLCJ2YWx1ZSI6ImxlZnQifSx7Im5hbWUiOiJSaWdodCIsInZhbHVlIjoicmlnaHQifV0sImdyb3VwIjoiSW1hZ2UifX19]]]
+			</div>
+		</div>
+	</div>
+</div>
+}
+
+<!-- forgotpassword username form -->
+<div class="app-container" style="display: block;">
+	<div class="page__content" style="height: 100%;">
+		<div class="card card--no-padding">
+            <div class="card__content">
+                <div class="org-logo">
+                    <img class="org-logo__image" src="https://play-lh.googleusercontent.com/YJz_odmkxiFUUhNvqQx9Em39-HZslaZtQWDLpcbJA9e-vThkoLhX1LF80vBFuh2rAMM" alt="Company Logo" />
+                </div>
+                <h1 class="heading" data-id="heading">Password Reset</h1>
+                <h4 class="heading heading--4" data-id="heading" style="text-align: center;">Enter your username, and we'll send password reset instructions to your email address.</h4>
+                <div data-skcomponent="skerror" class="feedback feedback--error sk-alert sk-alert-danger has-text-danger has-background-danger-light" data-skvisibility=""></div>
+                <form class="form" id='usernameForm' data-id="usernameForm">
+                    <div class="field float-label">
+                        <input class="text-input float-label__input" data-id="username-input" id="username" name="username" type="text" autocomplete="on" value="" />
+                        <label class="float-label__label" for="username">Username</label>
+                    </div>
+                    <div class="control">
+                        <button class="field is-primary mt-2 button file-input--button button--primary brand-primary-bg" data-id="button" type="submit" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernameForm" data-skbuttonvalue="submit">
+                            Submit
+                            <i class="fas fa-forward ml-2"></i>
+                        </button>
+                    </div>
+                    <div class="control">
+                        <div style="width: 100%; text-align: center;">
+                            <button type="submit" class="buttonLink is-primary is-inverted mt-2" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernameForm" data-skbuttonvalue="cancel">
+                                Cancel
+                                <i class="fas fa-forward ml-2"></i>
+                            </button>
+                        </div>
+					</div>
+                </form>
+            </div>
+		</div>
+	</div>
+</div>
