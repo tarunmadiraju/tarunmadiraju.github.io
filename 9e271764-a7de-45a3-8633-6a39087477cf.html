@@ -1,9 +1,10 @@
+<!-- login form -->
 {<div class="app-container" style="display: block;">
 	<div class="page__content" style="height: 100%;">
 		<div class="card card--no-padding">
 			<div class="card__content">
 				<div class="org-logo">
-					<img class="org-logo__image" src="https://mir-s3-cdn-cf.behance.net/projects/404/5343dc53090283.Y3JvcCw4NzEsNjgyLDE3OCw1NQ.png" alt="Company Logo" />
+					<img class="org-logo__image" src="https://www.universalmusic.com/wp-content/uploads/2015/09/universal-music-group-logo.png" alt="Company Logo" />
 				</div>
 				<div data-skcomponent="skerror" class="feedback feedback--error sk-alert sk-alert-danger has-text-danger has-background-danger-light" data-id="feedback" data-skvisibility=""></div>
 				<form class="form" id='usernamePasswordForm' data-id="usernamePasswordForm">
@@ -30,6 +31,7 @@
 				
 				<br><button type="submit" class="btn btn-link" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="registerUser">
 					No account?  Register now!
+				</button>
                         </div>
 					</div>
 				</form>
@@ -39,3 +41,39 @@
 	</div>
 </div>
 }
+<!-- DELIMITER -->
+<!-- forgotpassword username form -->
+<div class="app-container" style="display: block;">
+	<div class="page__content" style="height: 100%;">
+		<div class="card card--no-padding">
+            <div class="card__content">
+                <div class="org-logo">
+                    <img class="org-logo__image" src="https://mir-s3-cdn-cf.behance.net/projects/404/5343dc53090283.Y3JvcCw4NzEsNjgyLDE3OCw1NQ.png" alt="Company Logo" />
+                </div>
+                <h1 class="heading" data-id="heading">Password Reset</h1>
+                <h4 class="heading heading--4" data-id="heading" style="text-align: center;">Enter your username, and we'll send password reset instructions to your email address.</h4>
+                <div data-skcomponent="skerror" class="feedback feedback--error sk-alert sk-alert-danger has-text-danger has-background-danger-light" data-skvisibility=""></div>
+                <form class="form" id='usernameForm' data-id="usernameForm">
+                    <div class="field float-label">
+                        <input class="text-input float-label__input" data-id="username-input" id="username" name="username" type="text" autocomplete="on" value="" />
+                        <label class="float-label__label" for="username">Username</label>
+                    </div>
+                    <div class="control">
+                        <button class="field is-primary mt-2 button file-input--button button--primary brand-primary-bg" data-id="button" type="submit" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernameForm" data-skbuttonvalue="submit">
+                            Submit
+                            <i class="fas fa-forward ml-2"></i>
+                        </button>
+                    </div>
+                    <div class="control">
+                        <div style="width: 100%; text-align: center;">
+                            <button type="submit" class="buttonLink is-primary is-inverted mt-2" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernameForm" data-skbuttonvalue="cancel">
+                                Cancel
+                                <i class="fas fa-forward ml-2"></i>
+                            </button>
+                        </div>
+					</div>
+                </form>
+            </div>
+		</div>
+	</div>
+</div>
